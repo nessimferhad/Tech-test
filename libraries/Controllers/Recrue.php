@@ -17,7 +17,7 @@ class Recrue extends Controller
         /*
      2. Affichage
 */
-        \Renderer::render('articles/index', compact('recrues')); //compile et envoie les variables pagetitle articles et lisesarticle dans la page index
+        \Renderer::render('view/index', compact('recrues')); //compile et envoie les variables pagetitle articles et lisesarticle dans la page index
     }
 
     public function insertNewRecuit()
